@@ -1,0 +1,7 @@
+.lead__card {
+  max-width: 984px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+  margin: 64px auto 0;
+}

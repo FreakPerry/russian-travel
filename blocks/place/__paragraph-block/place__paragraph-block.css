@@ -1,0 +1,6 @@
+.place__paragraph-block {
+  grid-area: paragraph;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 26px;
+}

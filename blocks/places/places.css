@@ -1,0 +1,7 @@
+.places {
+  max-width: calc(100% - 296px);
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 80px;
+  margin: 92px auto 0;
+}
