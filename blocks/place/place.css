@@ -22,9 +22,21 @@
   }
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 767px) {
   .place {
-    grid-template-columns: minmax(min-content, 320px);
+    grid-template-columns: minmax(min-content, 767px);
+    grid-template-areas:
+      'title'
+      'website'
+      'image'
+      'paragraph';
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place {
+    grid-template-columns: minmax(min-content, 425px);
     grid-template-areas:
       'title'
       'website'
