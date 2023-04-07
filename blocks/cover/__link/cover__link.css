@@ -1,0 +1,29 @@
+.cover__link {
+  width: inherit;
+  min-height: inherit;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  text-decoration: none;
+  background-image: url(../../../images/cover-baikal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover__link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  min-height: inherit;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  transition: opacity 0.5s;
+}
+
+.cover__link:hover::before {
+  opacity: 0.8;
+}
