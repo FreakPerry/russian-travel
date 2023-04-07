@@ -5,3 +5,17 @@
   font-weight: 400;
   color: #fff;
 }
+
+@media screen and (max-width: 1023px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 1.63;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    max-width: calc(100% - 32px);
+    margin: 0 16px 0;
+  }
+}

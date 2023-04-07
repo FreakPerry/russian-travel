@@ -5,3 +5,15 @@
   gap: 8px;
   margin: 64px auto 0;
 }
+
+@media screen and (max-width: 1279px) {
+  .lead__card {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__card {
+    margin-top: 40px;
+  }
+}

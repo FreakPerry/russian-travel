@@ -1,15 +1,17 @@
 .cover__link {
-  width: inherit;
-  min-height: inherit;
+  max-width: 1184px;
+  aspect-ratio: 8 / 5;
+  margin: 92px auto 0;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  gap: 32px;
   text-decoration: none;
   background-image: url(../../../images/cover-baikal.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 .cover__link::before {
@@ -17,8 +19,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: inherit;
-  min-height: inherit;
+  width: 100%;
+  height: 100%;
   background-color: #2a2c2f;
   opacity: 0.3;
   transition: opacity 0.5s;
@@ -26,4 +28,23 @@
 
 .cover__link:hover::before {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__link {
+    /* min-height: 640px; */
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__link {
+    /* min-height: 480px; */
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .cover__link {
+    min-height: 200px;
+    margin-top: 66px;
+  }
 }

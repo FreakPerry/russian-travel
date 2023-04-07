@@ -6,3 +6,10 @@
   text-align: right;
   color: #fff;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    margin: 48px 0 0 0;
+    text-align: left;
+  }
+}

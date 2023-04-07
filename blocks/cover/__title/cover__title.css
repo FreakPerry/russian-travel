@@ -1,9 +1,17 @@
 .cover__title {
-  width: 560px;
+  max-width: 560px;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   text-align: center;
   color: #fff;
   z-index: 2;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    max-width: calc(100% - 32px);
+    font-size: 32px;
+    line-height: 35px;
+  }
 }
