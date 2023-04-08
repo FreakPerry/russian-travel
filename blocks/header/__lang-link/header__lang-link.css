@@ -7,7 +7,7 @@
   text-decoration: none;
 }
 
-.header__lang-link:hover {
+.header__lang-link:focus {
   text-decoration: underline;
 }
 

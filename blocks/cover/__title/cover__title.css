@@ -2,7 +2,7 @@
   max-width: 560px;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
+  line-height: 1.06;
   text-align: center;
   color: #fff;
   z-index: 2;
@@ -12,6 +12,6 @@
   .cover__title {
     max-width: calc(100% - 32px);
     font-size: 32px;
-    line-height: 35px;
+    line-height: 1.09;
   }
 }
