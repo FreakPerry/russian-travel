@@ -25,7 +25,6 @@
 }
 
 .cover__link:hover::before {
-  transform: scale(1.1);
   opacity: 0.8;
 }
 

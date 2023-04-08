@@ -11,23 +11,23 @@
     <div class="page">
       <header class="header">
         <img class="header__logo" src="images/__logo.svg" alt="логотип" />
-        <div class="header__lang-links">
-          <a class="header__lang-link" href="#">Ru</a>
-          <a class="header__lang-link" href="#">En</a>
-        </div>
+        <ul class="header__lang-links">
+          <li><a class="link header__lang-link header__lang-link_active" href="#">Ru</a></li>
+          <li><a class="link header__lang-link" href="#">En</a></li>
+        </ul>
       </header>
       <main class="content">
         <section class="lead">
           <h1 class="lead__title">Путешествия по России</h1>
           <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-          <div class="lead__card">
+          <figure class="lead__card">
             <img
               class="lead__image"
               src="images/__image.jpg"
               alt="Вид из поезда с нанесенной поверх картой от Пскова до Улан-Удэ"
             />
-            <p class="lead__caption">ваша полка — верхняя</p>
-          </div>
+            <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+          </figure>
         </section>
         <section class="intro">
           <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -42,82 +42,110 @@
             вашего отпуска.
           </p>
           <ul class="intro__list">
-            <li class="intro__list-item"><strong>Часовых поясов</strong> 11</li>
             <li class="intro__list-item">
-              <strong>Объектов природного наследия ЮНЕСКО</strong> 12
+              <span class="intro__span-accent">Часовых поясов</span> 11
             </li>
             <li class="intro__list-item">
-              <strong>Объектов культурного наследия ЮНЕСКО</strong> 16
+              <span class="intro__span-accent">Объектов природного наследия ЮНЕСКО</span> 12
             </li>
-            <li class="intro__list-item"><strong>Природных заповедников</strong> 105</li>
-            <li class="intro__list-item"><strong>Аэропортов</strong> 241</li>
+            <li class="intro__list-item">
+              <span class="intro__span-accent">Объектов культурного наследия ЮНЕСКО</span> 16
+            </li>
+            <li class="intro__list-item">
+              <span class="intro__span-accent">Природных заповедников</span> 105
+            </li>
+            <li class="intro__list-item"><span class="intro__span-accent">Аэропортов</span> 241</li>
           </ul>
         </section>
-        <section class="photo-grid">
-          <img
-            class="photo-grid__item"
-            src="images/photo-train.jpg"
-            alt="Вид из окна поезда на берег"
-          />
-          <img
-            class="photo-grid__item"
-            src="images/photo-mountain.jpg"
-            alt="Вид на склон горы в облаках"
-          />
-          <img
-            class="photo-grid__item"
-            src="images/photo-field.jpg"
-            alt="Поле со стогами сена и на одном из них собака"
-          />
-          <img
-            class="photo-grid__item"
-            src="images/photo-foggy-forest.jpg"
-            alt="Лес в опустившемся тумане"
-          />
-          <img
-            class="photo-grid__item"
-            src="images/photo-baikal.jpg"
-            alt="Трещины на льду Байкала"
-          />
-          <img
-            class="photo-grid__item"
-            src="images/photo-burguzin-bay.jpg"
-            alt="Бургузинский залив"
-          />
-          <img
-            class="photo-grid__item"
-            src="images/photo-mountain-peaks.jpg"
-            alt="Вершины гор в снегу"
-          />
-          <img
-            class="photo-grid__item"
-            src="images/photo-kondratiev-pass.jpg"
-            alt="Перевал Кондратьева"
-          />
-          <img
-            class="photo-grid__item"
-            src="images/photo-mutnovsky-volcano.jpg"
-            alt="Мутновский вулкан"
-          />
-          <img
-            class="photo-grid__item"
-            src="images/photo-kamchatka-mountains.jpg"
-            alt="Горы камчатки"
-          />
-          <img
-            class="photo-grid__item"
-            src="images/photo-rock-by-the-water.jpg"
-            alt="Скала рядом с водой"
-          />
-          <img
-            class="photo-grid__item"
-            src="images/photo-fog.jpg"
-            alt="Тропа на склоне горы в тумане"
-          />
-        </section>
+        <ul class="photo-grid">
+          <li>
+            <img
+              class="photo-grid__image"
+              src="images/photo-train.jpg"
+              alt="Вид из окна поезда на берег"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__image"
+              src="images/photo-mountain.jpg"
+              alt="Вид на склон горы в облаках"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__image"
+              src="images/photo-field.jpg"
+              alt="Поле со стогами сена и на одном из них собака"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__image"
+              src="images/photo-foggy-forest.jpg"
+              alt="Лес в опустившемся тумане"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__image"
+              src="images/photo-baikal.jpg"
+              alt="Трещины на льду Байкала"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__image"
+              src="images/photo-burguzin-bay.jpg"
+              alt="Бургузинский залив"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__image"
+              src="images/photo-mountain-peaks.jpg"
+              alt="Вершины гор в снегу"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__image"
+              src="images/photo-kondratiev-pass.jpg"
+              alt="Перевал Кондратьева"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__image"
+              src="images/photo-mutnovsky-volcano.jpg"
+              alt="Мутновский вулкан"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__image"
+              src="images/photo-kamchatka-mountains.jpg"
+              alt="Горы камчатки"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__image"
+              src="images/photo-rock-by-the-water.jpg"
+              alt="Скала рядом с водой"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__image"
+              src="images/photo-fog.jpg"
+              alt="Тропа на склоне горы в тумане"
+            />
+          </li>
+        </ul>
         <section class="places">
-          <div class="place">
-            <h3 class="place__title">Куршская коса</h3>
+          <article class="place">
+            <h2 class="place__title">Куршская коса</h2>
             <img
               class="place__image"
               src="images/kurshskaya-kosa.jpg"
@@ -142,9 +170,9 @@
                 исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.
               </p>
             </div>
-          </div>
-          <div class="place">
-            <h3 class="place__title">Кольский</h3>
+          </article>
+          <article class="place">
+            <h2 class="place__title">Кольский</h2>
             <img class="place__image" src="images/kolskiy.jpg" alt="Кольский полуостров" />
             <div class="place__website">
               <span class="place__url-heading">url</span>
@@ -168,9 +196,9 @@
                 увидеть северное сияние начинает сбываться с билетом в Мурманск.
               </p>
             </div>
-          </div>
-          <div class="place">
-            <h3 class="place__title">Алтай</h3>
+          </article>
+          <article class="place">
+            <h2 class="place__title">Алтай</h2>
             <img class="place__image" src="images/altay.jpg" alt="Вид на Алтайский лес из окна" />
             <div class="place__website">
               <span class="place__url-heading">url</span>
@@ -195,9 +223,9 @@
                 края.
               </p>
             </div>
-          </div>
-          <div class="place">
-            <h3 class="place__title">Зимний Байкал</h3>
+          </article>
+          <article class="place">
+            <h2 class="place__title">Зимний Байкал</h2>
             <img class="place__image" src="images/baikal.jpg" alt="Трещины на льду озера Байкал" />
             <div class="place__website">
               <span class="place__url-heading">url</span>
@@ -217,9 +245,9 @@
                 «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
               </p>
             </div>
-          </div>
-          <div class="place">
-            <h3 class="place__title">Карелия</h3>
+          </article>
+          <article class="place">
+            <h2 class="place__title">Карелия</h2>
             <img class="place__image" src="images/karelia.jpg" alt="Карельские шхеры" />
             <div class="place__website">
               <span class="place__url-heading">url</span>
@@ -236,7 +264,7 @@
               встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены
               медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
-          </div>
+          </article>
         </section>
         <section class="cover">
           <a
@@ -253,18 +281,34 @@
         </section>
       </main>
       <footer class="footer">
-        <nav class="footer__links">
-          <a class="link footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-          <a class="link footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-          <a class="link footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-          <a class="link footer__link" href="https://calendar.yandex.ru" target="_blank"
-            >Календарь</a
-          >
-          <a class="link footer__link" href="https://travel.yandex.ru" target="_blank"
-            >Путешествия</a
-          >
+        <nav>
+          <ul class="footer__links">
+            <li>
+              <a class="link footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+            </li>
+            <li>
+              <a class="link footer__link" href="https://yandex.ru/pogoda" target="_blank"
+                >Погода</a
+              >
+            </li>
+            <li>
+              <a class="link footer__link" href="https://rasp.yandex.ru" target="_blank"
+                >Расписание</a
+              >
+            </li>
+            <li>
+              <a class="link footer__link" href="https://calendar.yandex.ru" target="_blank"
+                >Календарь</a
+              >
+            </li>
+            <li>
+              <a class="link footer__link" href="https://travel.yandex.ru" target="_blank"
+                >Путешествия</a
+              >
+            </li>
+          </ul>
         </nav>
-        <span class="footer__copyright">© 2020. Татаренко Елисей</span>
+        <p class="footer__copyright">© 2020. Татаренко Елисей</p>
       </footer>
     </div>
   </body>

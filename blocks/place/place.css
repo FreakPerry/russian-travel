@@ -37,11 +37,5 @@
 @media screen and (max-width: 425px) {
   .place {
     grid-template-columns: minmax(min-content, 425px);
-    grid-template-areas:
-      'title'
-      'website'
-      'image'
-      'paragraph';
-    gap: 32px;
   }
 }
