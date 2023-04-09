@@ -38,7 +38,7 @@
 
 /* photo-grid */
 
-@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__list/photo-grid__list.css);
 @import url(../blocks/photo-grid/__image/photo-grid__image.css);
 
 /* places  */
