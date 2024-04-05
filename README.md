@@ -1,30 +1,28 @@
-# Проект: Путешествие по России
+### Project: "Journey Across Russia"    
+<br/>  
 
-## Обзор
+## Description
+This project is a single-page website dedicated to traveling across Russia. The website is responsive and displays correctly on various devices.
+<br/>
 
-- Описание
-- Макет в Figma
-- Технологии
-- Ссылка на сайт
+## Technologies  
+<table><tr><td valign="top" width="33%">
 
-## Описание
+<div align="center">  
+<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>  
+<a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" /></a>  
+</div></table>  
 
-Данный проект представляет собой одностраничный сайт, посвященный путешествиям по России. Сайт адаптивный и отображается корректно на различных устройствах.
+<br/>  
 
-## Макет в Figma
 
-Макет проекта находится в Figma и доступен по [ссылке](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0). В макете представлено, как должен выглядеть сайт на наиболее популярных разрешениях экранов.
+## Figma Layout
+The project layout is available in Figma and can be accessed via the [link](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0). The layout demonstrates how the website should look on the most popular screen resolutions.
 
-## Технологии
+<br/>  
 
-Сайт был написан с использованием следующих технологий:
 
-- HTML
-- CSS
-- Flexbox-верстка
-- Grid Layout
-- Медиа-запросы
+## Github pages  
+The project is hosted on [GitHub Pages](https://freakperry.github.io/russian-travel/) and can be accessed via the link.
 
-## Ссылка на сайт
-
-Проект размещен на [GitHub Pages](https://freakperry.github.io/russian-travel/) и доступен по ссылке.
+<br/> 
