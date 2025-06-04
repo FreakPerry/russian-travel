@@ -1,28 +1,46 @@
-### Project: "Journey Across Russia"    
-<br/>  
+# 🇷🇺 Russian Travel
 
-## Description
-This project is a single-page website dedicated to traveling across Russia. The website is responsive and displays correctly on various devices.
-<br/>
+**Russian Travel** is a responsive single-page website showcasing picturesque destinations across Russia. Developed as part of the Yandex.Practicum curriculum, this project emphasizes adaptive layout techniques and semantic HTML structure.
 
-## Technologies  
-<table><tr><td valign="top" width="33%">
+---
 
-<div align="center">  
-<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>  
-<a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" /></a>  
-</div></table>  
+## 🌐 Live Demo
 
-<br/>  
+🔗 [View on GitHub Pages](https://freakperry.github.io/russian-travel)
 
+---
 
-## Figma Layout
-The project layout is available in Figma and can be accessed via the [link](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0). The layout demonstrates how the website should look on the most popular screen resolutions.
+## 🛠 Technologies Used
 
-<br/>  
+- HTML5
+- CSS3
+- Flexbox
+- Grid Layout
+- BEM Methodology (Nested)
+- Responsive Design
 
+---
 
-## Github pages  
-The project is hosted on [GitHub Pages](https://freakperry.github.io/russian-travel/) and can be accessed via the link.
+## 📁 Project Structure
 
-<br/> 
+russian-travel/
+├── blocks/           # BEM blocks
+├── fonts/            # Font files
+├── images/           # Image assets
+├── pages/            # Page-specific styles
+├── vendor/           # Third-party libraries
+├── .nojekyll         # Disables Jekyll on GitHub Pages
+├── index.html        # Main HTML file
+└── README.md         # Project documentation
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/FreakPerry/russian-travel.git
+   ```
+
+2.	Open index.html in your preferred browser.
