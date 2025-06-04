@@ -21,20 +21,6 @@
 
 ---
 
-## 📁 Project Structure
-
-russian-travel/
-├── blocks/           # BEM blocks
-├── fonts/            # Font files
-├── images/           # Image assets
-├── pages/            # Page-specific styles
-├── vendor/           # Third-party libraries
-├── .nojekyll         # Disables Jekyll on GitHub Pages
-├── index.html        # Main HTML file
-└── README.md         # Project documentation
-
----
-
 ## 🚀 Getting Started
 
 1. Clone the repository:
